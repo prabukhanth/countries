@@ -11,7 +11,7 @@ const Tile = ({flagUrl, name, altFlag}) => {
             padding: "10px",
             border: "1px solid black",
             borderRadius: "8px",
-            msFlexDirection: "column",
+            flexDirection: "column",
             width: "200px",
         }}
         >
