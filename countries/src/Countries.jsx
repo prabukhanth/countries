@@ -20,7 +20,8 @@ const Tile = ({flagUrl, name, altFlag}) => {
         alt={altFlag}
         style ={{width: "100px", height:"100px"}}
         />
-        <h2>name</h2>
+       <br/>
+        <h2>{name} </h2>
         </div>
     )
 }
