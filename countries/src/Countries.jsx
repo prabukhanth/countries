@@ -20,15 +20,14 @@ const Tile = ({flagUrl, name, altFlag}) => {
         alt={altFlag}
         style ={{width: "100px", height:"100px"}}
         />
-       <br/>
-        <h2>{name} </h2>
+        <h2> {name} </h2>
         </div>
-    )
-}
+    );
+};
     
 function Countries () {
     const API_URL = "https://restcountries.com/v3.1/all";
-    const [Countries, setCountries] = useState ([]);
+    const [countries, setCountries] = useState ([]);
 
     useEffect (() => {
         fetch (API_URL)
