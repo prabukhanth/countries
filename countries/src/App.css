@@ -1,30 +1,33 @@
-.App {
+.countries-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
   }
   
-  .country-grid {
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .countries-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* gap: 50px; */
-    
-    
   }
   
   .countryCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:"10px";
-    padding:"10px";
-    /* border:"10px solid red"; */
-    width: 200px;
-    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
   }
   
-  .countryCard img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Maintain aspect ratio */
+  .flag-img {
+    width: 50px; /* Adjust flag size as needed */
+    height: auto;
+  }
+  
+  .no-countries {
+    margin-top: 20px;
+    font-weight: bold;
   }
