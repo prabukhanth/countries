@@ -1,0 +1,40 @@
+.cardWrapper {
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px; */
+    gap: 10ppx;
+    border-radius: 8px;
+  
+  }
+  
+  .cardImg {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  
+  .mainCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  
+  }
+  
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchBar input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 7px 0px grey;
+  }
